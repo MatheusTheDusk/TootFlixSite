@@ -2,10 +2,9 @@ body {
         color:antiquewhite;
         background: rgb(16, 12, 18);
         margin:0px ;
-                font-family: "VT323", monospace;
-                font-size: 25;
-              
-              
+        font-family: "VT323", monospace;
+        font-size: 25;
+        overflow-x: hidden;
 }
 
 header{
@@ -128,4 +127,8 @@ h2{
 
 .video-grid-content h3 {
         font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+        
 }
